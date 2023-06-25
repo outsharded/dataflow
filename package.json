@@ -1,0 +1,27 @@
+{
+  "name": "dataflow",
+  "version": "0.0.0",
+  "description": "Data processing engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outsharded/dataflow.git"
+  },
+  "keywords": [
+    "data",
+    "engine",
+    "node"
+  ],
+  "author": "outsharded",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/outsharded/dataflow/issues"
+  },
+  "homepage": "https://github.com/outsharded/dataflow#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
+}
