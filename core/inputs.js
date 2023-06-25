@@ -1,5 +1,5 @@
 const readline = require('readline');
-const calculateExpression = require('../fuctions/math')
+const calculateExpression = require('../functions/math')
 
 const rl = readline.createInterface({
   input: process.stdin,

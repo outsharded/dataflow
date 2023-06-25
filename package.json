@@ -4,7 +4,10 @@
   "description": "Data processing engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -22,8 +25,12 @@
   },
   "homepage": "https://github.com/outsharded/dataflow#readme",
   "dependencies": {
+    "chart.js": "^4.3.0",
     "mathjs": "^11.8.2",
     "minimist": "^1.2.8",
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "readline": "^1.3.0"
   }
 }
